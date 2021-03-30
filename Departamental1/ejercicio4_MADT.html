@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="CSS/D2.css" rel="stylesheet"/> 
+    <title>ejercicio4_123</title>
+
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+       <section>
+        <from action="guardar.php" method = "POST">
+            <fieldset>
+                <legend>¿Qué Power Ranger eres?</legend>
+
+                <table align="center">
+                    <tr>
+                        <td><label for="Nombre">Nombre: </label> </td>
+                        <td><input type="text" id="Nombre" name="Nombre">  </td>
+                    </tr>
+                     
+                    <tr>
+                        <td><label for="¿Animal favorito?">¿Animal favorito?: </label> </td>
+                        <td><input type="text" id="¿Animal favorito?" name="¿Animal favorito?">  </td>
+                    </tr>
+
+                    <td><label>Edad:</label></td>
+                    <td>
+                        <label>
+                            <input type="number" name="Edad" id="Edad" min="0"> Años
+                        </label>
+                    </td>
+
+                    <tr>
+                        <td><label for="¿Color favorito?">¿Color favorito?</label></td>
+                        <td>
+                            <select id="¿Color favorito?" name="¿Color favorito?"> 
+                                <option value="1">Rojo</option>
+                                <option value="2">Amarillo</option>
+                                <option value="3">Rosa</option>
+                                <option value="4">Azul</option>
+                                <option value="5">Negro</option>
+                                <option value="6">Verde</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="¿Qué elemnto crees que te representa?">¿Qué elemnto crees que te representa?</label></td>
+                        <td>
+                            <select id="¿Qué elemnto crees que te representa?" name="¿Qué elemnto crees que te representa?"> 
+                                <option value="1">Tierra</option>
+                                <option value="2">Fuego</option>
+                                <option value="3">Agua</option>
+                                <option value="4">Aire</option>
+                                
+                            </select>
+                        </td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td><label for="¿Quieres un Zord?">¿¿Quieres un Zord??</label></td>
+                        <td>
+                            <select id="¿¿Quieres un Zord?" name="¿Quieres un Zord?"> 
+                                <option value="1">Si</option>
+                                <option value="2">No</option>
+                                <option value="3">Mi mamá no me deja</option>
+                                
+                                
+                            </select>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><label for="¿Conoces a Zordon?">¿Conoces a Zordon?</label></td>
+                        <td>
+                            <select id="¿Conoces a Zordon?" name="¿Conoces a Zordon?"> 
+                                <option value="1">Si</option>
+                                <option value="2">No</option>
+                              
+                            </select>
+                            <input type="radio" id=estatus name="estatus" value="1"><label>Aun no lo encuentro</label> 
+                            <input type="radio" id=estatus name="estatus" value="2"><label>Es mi Pana</label> 
+                        </td>
+                    </tr>
+
+                    
+
+                    <tr> 
+                        <td><label for="Ransik Derrotados"> Ransik Derrotados</label></td>
+                        <td><input type="number" id="Ransik Derrotados" name="Ransik Derrotados"></td>
+                    </tr>
+
+                   
+
+                    <tr>
+                        <td><input type="submit" id="Mighty Morphin Power Rangers" name="Mighty Morphin Power Rangers" value="Mighty Morphin Power Rangers"></td>
+                        <td><input type="reset" id="limpiar" name="limpiar" value="Limpiar campo"></td> 
+                    </tr>
+
+                </table>
+
+            </fieldset>
+         
+        
+
+
+        </from>
+
+
+
+
+       </section>
+
+
+    </main>
+
+
+</body>
+</html>
