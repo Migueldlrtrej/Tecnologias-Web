@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(212, 195, 195);
+    background-image: url(../images/poke2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+}
+
+
+fieldset{
+    position: relative;
+    top: 200px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+}
